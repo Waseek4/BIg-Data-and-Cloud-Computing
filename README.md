@@ -133,21 +133,22 @@ The solution follows the **Medallion Architecture** (Bronze → Silver → Gold)
 
 ## Data Layers (Medallion Architecture)
 
+
 | Layer | Description | Records | Availability |
 |---|---|---|---|
-| **Bronze** | Raw, unmodified ingested data | 16,281,039 | [Kaggle](https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews-2) (3.6 GB) |
+| **Bronze** | Raw, unmodified ingested data | 16,281,039 | [Kaggle](https://kaggle.com) (3.6 GB) |
 | **Silver** | Cleaned, deduplicated, type-cast, partitioned by year (Delta) | 9,508,621 | OneDrive (≈1.5 GB — see link below) |
-| **Gold** | Curated analytical aggregate tables | ~Hundreds | In this repo (`data/gold/`) |
+| **Gold** | Curated analytical aggregate tables & visual dashboards | ~Hundreds | In this repo (`data/gold/`) & [Power BI](https://powerbi.com) |
 
 The cleaning process removed **6,772,418 records** (duplicates, nulls in critical columns, and invalid out-of-range values).
 
-### Accessing the full cleaned dataset
+### Accessing the Datasets & Dashboards
 
-The complete cleaned **Silver-layer** dataset (9,508,621 records) exceeds GitHub's file-size limits and is therefore hosted separately on OneDrive:
+* **Raw Data (Bronze):** Available from its original [Kaggle Source](https://kaggle.com).
+* **Cleaned Dataset (Silver):** Exceeds GitHub limits. Download from [OneDrive Silver Layer](https://sharepoint.com).
+* **Aggregated Tables (Gold):** Included directly in this repository under `data/gold/`.
+* **Interactive Analytics (Gold):** View the live [Power BI Dashboard](https://powerbi.com).
 
-> **Cleaned dataset (Silver layer):**[Cleaned Dataset (Silver Layer)](https://yorksj-my.sharepoint.com/:x:/g/personal/washeek_lareef_yorksj_ac_uk/IQDUifaKnJ1cS4X0b9-vt4Z3AdFpAvPU_4VvnJLpy9L4NXw?e=cRkOuZ)`
-
-The **raw** dataset is available from its original Kaggle source (linked above), and the small curated **Gold** tables are included directly in this repository under `data/gold/`.
 
 ---
 
