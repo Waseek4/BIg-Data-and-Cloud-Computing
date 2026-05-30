@@ -147,7 +147,7 @@ The cleaning process removed **6,772,418 records** (duplicates, nulls in critica
 * **Raw Data (Bronze):** Available from its original [Kaggle Source](https://kaggle.com).
 * **Cleaned Dataset (Silver):** Exceeds GitHub limits. Download from [OneDrive Silver Layer](https://sharepoint.com).
 * **Aggregated Tables (Gold):** Included directly in this repository under `data/gold/`.
-* **Interactive Analytics (Gold):** View the live [Power BI Dashboard]([https://app.powerbi.com/groups/me/reports/aef47565-0174-47cb-8902-01e58a835687/d83bccb8a42d3b328146?experience=power-bi]).
+* **Interactive Analytics (Gold):** View the live [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/aef47565-0174-47cb-8902-01e58a835687/d83bccb8a42d3b328146?experience=power-bi)
 
 
 ---
